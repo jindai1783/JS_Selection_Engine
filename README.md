@@ -2,9 +2,7 @@
 
 ## Introduction
 
-This repo is a note of building a JS selection engine that works like JQuery.
-
-It has been built with the following principles:
+This repo is a note of building a JS selection engine that works like JQuery. It has been built with the following principles:
 
 **DRY principle:** every piece of knowledge must have a single, unambiguous, authoritative representation within a system. The functions are at their minimum.
 
