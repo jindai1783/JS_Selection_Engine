@@ -10,6 +10,7 @@ This repo is a note of building a JS selection engine that works like JQuery. It
 
 **YAGNI principle:** a programmer should not add functionality until deemed necessary. The code is designed to pass the test and no more.
 
----17 March update---
 
-**Backward compatible:** if IE8 is detected, polyfills will be added so  the script is still functional.
+---update---
+
+**Backward compatible:** if IE8 is detected, missing functions will be added to support the browser so the script is still functional.

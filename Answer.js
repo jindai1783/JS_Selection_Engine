@@ -1,5 +1,5 @@
 if (belowIE9) {
-  addPolyfills();
+  addFunctions();
 }
 
 var $ = function (selector) {
@@ -57,7 +57,7 @@ function belowIE9() {
   return !document.addEventListener;
 }
 
-function addPolyfills() {
+function addFunctions() {
   
   Array.prototype.filter = function(fun/*, thisArg*/) {
     'use strict';
